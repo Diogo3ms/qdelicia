@@ -7,7 +7,7 @@ const user = require("./Controllers/utilizadores");
 const auth = require("./codigo");
 const mongoose = require("mongoose");
 app.use(express.json())
-const port = 4000;
+const port = process.env.PORT || 8080;
 const dbName = "qdelicia"; //Colocar o nome da Base de dados em Questão
 const connect = mongoose.connect(url, { dbName: dbName, useNewUrlParser: true, useUnifiedTopology: true})
 
