@@ -1,0 +1,1 @@
+[{"Nome_do_prato":"bacalhau","Preco":10,"Regime":"vegetariano","Ingredientes":["bacalhauX"],"Cod":21}]
